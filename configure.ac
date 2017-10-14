@@ -1,0 +1,8 @@
+AC_INIT([ATI Force/Torque Sensing Library], 0.1.0)
+AM_INIT_AUTOMAKE
+AC_PROG_CC
+AC_PROG_RANLIB
+AC_PROG_INSTALL
+AC_CONFIG_FILES([Makefile atift-0.1.pc])
+AC_OUTPUT
+
