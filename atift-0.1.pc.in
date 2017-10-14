@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: atift 
+Description: ATI Force/Torque Conversion and Calibration Library.
+Requires: 
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lm -latift-0.1
+Cflags: -I${includedir}/atift-0.1
+
