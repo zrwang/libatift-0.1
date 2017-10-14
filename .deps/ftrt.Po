@@ -1,0 +1,5 @@
+ftrt.o: ftrt.c ftrt.h ftsharedrt.h
+
+ftrt.h:
+
+ftsharedrt.h:
